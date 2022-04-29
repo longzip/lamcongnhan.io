@@ -4,6 +4,10 @@
     <changefreq>hourly</changefreq>
   </url>
   <url>
+    <loc>https://www.lamcongnhan.ga/tuyen-dung/[slug]</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
     <loc>https://www.lamcongnhan.ga/posts/cong-ty-sei-tuyen-dung</loc>
     <changefreq>hourly</changefreq>
   </url>

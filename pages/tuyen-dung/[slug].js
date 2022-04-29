@@ -50,7 +50,7 @@ export default function Post({ post, posts, preview }) {
               <footer>
                 {post.tags.edges.length > 0 && <Tags tags={post.tags} />}
               </footer>
-              <div class="1hbspt-form" id="hbspt-form-lam-cong-nhan"></div>
+              
             </article>
 
             <SectionSeparator />

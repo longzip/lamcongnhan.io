@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "push": "git add . && git commit -m push && git push",
     "g": "next build && next export",
     "start": "next start"
   },

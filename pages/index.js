@@ -15,19 +15,19 @@ export default function Index({ allPosts: { edges }, preview }) {
   return (
     <>
     <NextSeo
-        title="Blog Bưu điện văn hóa xã Tự Lập"
-        description="Thông tin về các dịch vụ và lịch làm việc của Bưu điện văn hóa xã Tự Lập. Hotline 0978333963"
-        canonical="https://blog.buudienxatulap.ga/"
+        title="Làm công nhân"
+        description="Đăng ký đi làm công nhân liên hệ chị Thắm 0978333963 hoặc để lại sđt chúng tôi tư vấn lựa chọn công việc tốt nhất."
+        canonical="https://www.lamcongnhan.ga/"
         openGraph={{
-          url: 'https://blog.buudienxatulap.ga/',
-          title: 'Blog Bưu điện xã Tự Lập',
-          description: 'Các dịch vụ và lịch làm việc của bưu điện xã Tự Lập. Hotline 0978333963',
+          url: 'https://www.lamcongnhan.ga/',
+          title: 'Làm Công Nhân',
+          description: 'Tuyển công nhân, lao động đi làm ngay tại các KCN Khai Quang - Vĩnh Yên, KCN Bình Xuyên 1+2, KCN Bá Thiện 1+2, Khu vực Phúc Yên, Mê Linh, Bắc Thăng Long. Thu nhập lên đến 13tr',
           images: [
             {
-              url: 'https://blog.buudienxatulap.ga/ho-tham.png',
+              url: 'https://www.lamcongnhan.ga/lam-cong-nhan.png',
               width: 800,
               height: 600,
-              alt: 'Hồ Thị Thắm',
+              alt: 'Làm Công Nhân',
             },
           ],
         }}
