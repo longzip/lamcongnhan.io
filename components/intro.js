@@ -7,19 +7,19 @@ export default function Intro() {
         Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
+        Bạn có câu hỏi cho chúng tôi?{' '}
         <a
-          href="https://nextjs.org/"
+          href="https://m.me/buudientulap"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Next.js
+          Chat với chúng tôi trên Facebook
         </a>{' '}
-        and{' '}
+        hoặc{' '}
         <a
-          href={CMS_URL}
+          href="https://zalo.me/0978333963"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          {CMS_NAME}
+          Gọi Zalo 0978333963
         </a>
         .
       </h4>

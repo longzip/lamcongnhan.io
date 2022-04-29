@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              Giờ chị <strong>Hồ Thị Thắm</strong> làm{' '}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href="https://www.buudienxatulap.ga/"
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                available on GitHub
+                Bưu điện văn hóa xã Tự Lập
               </a>
               .
             </>
