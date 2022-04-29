@@ -34,7 +34,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Chị Hồ Thị Thắm giờ làm ${CMS_NAME}.`}
+        content={`Việc làm nhà máy, khu công nghiệp ở Vĩnh Phúc với ${CMS_NAME}.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
