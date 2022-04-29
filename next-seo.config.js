@@ -2,7 +2,7 @@ export default {
     openGraph: {
       type: 'website',
       locale: 'vi_VN',
-      site_name: 'Bưu điện văn hóa xã Tự Lập',
+      site_name: 'Làm Công Nhân',
     },
     twitter: {
       handle: '@lovalong',

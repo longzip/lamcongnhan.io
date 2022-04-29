@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           />
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js" />
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -20,6 +21,38 @@ export default class MyDocument extends Document {
             gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
               page_path: window.location.pathname,
             });
+
+            (function() {
+              var hbspt = window.hbspt = window.hbspt || {};
+              hbspt.forms = hbspt.forms || {};
+              hbspt._wpFormsQueue = [];
+              hbspt.enqueueForm = function(formDef) {
+                if (hbspt.forms && hbspt.forms.create) {
+                  hbspt.forms.create(formDef);
+                } else {
+                  hbspt._wpFormsQueue.push(formDef);
+                }
+              };
+              if (!window.hbspt.forms.create) {
+                Object.defineProperty(window.hbspt.forms, 'create', {
+                  configurable: true,
+                  get: function() {
+                    return hbspt._wpCreateForm;
+                  },
+                  set: function(value) {
+                    hbspt._wpCreateForm = value;
+                    while (hbspt._wpFormsQueue.length) {
+                      var formDef = hbspt._wpFormsQueue.shift();
+                      if (!document.currentScript) {
+                        var formScriptId = 'leadin-forms-v2-js';
+                        hubspot.utils.currentScript = document.getElementById(formScriptId);
+                      }
+                      hbspt._wpCreateForm.call(hbspt.forms, formDef);
+                    }
+                  },
+                });
+              }
+            })();
           `,
             }}
           />
@@ -59,6 +92,14 @@ export default class MyDocument extends Document {
               js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
+
+						hbspt.enqueueForm({
+							portalId: 19555470,
+							formId: "d437421b-1dcc-4d05-a434-16410c8dda49",
+							target: "#hbspt-form-lam-cong-nhan",
+							region: "na1",
+							
+						});
             `,
           }}
         />

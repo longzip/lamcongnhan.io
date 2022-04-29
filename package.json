@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "g": "next build && next export -o docs",
+    "g": "next build && next export",
     "start": "next start"
   },
   "dependencies": {

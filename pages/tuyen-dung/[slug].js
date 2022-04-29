@@ -50,6 +50,7 @@ export default function Post({ post, posts, preview }) {
               <footer>
                 {post.tags.edges.length > 0 && <Tags tags={post.tags} />}
               </footer>
+              <div class="1hbspt-form" id="hbspt-form-lam-cong-nhan"></div>
             </article>
 
             <SectionSeparator />
@@ -77,7 +78,7 @@ export async function getStaticPaths() {
   const allPosts = await getAllPostsWithSlug()
 
   return {
-    paths: allPosts.edges.map(({ node }) => `/posts/${node.slug}`) || [],
+    paths: allPosts.edges.map(({ node }) => `/tuyen-dung/${node.slug}`) || [],
     fallback: true,
   }
 }

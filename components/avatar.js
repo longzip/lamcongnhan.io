@@ -7,14 +7,14 @@ export default function Avatar({ author }) {
       : author.name
     : null
 
-  const imageProfileUrl = author? author.avatar ? author.avatar : '/ho-tham.png' : '/ho-tham.png'
+  // const imageProfileUrl = author? author.avatar ? author.avatar : '/lam-cong-nhan.jpg' : '/lam-cong-nhan.jpg'
 
   return (
     <div className="flex items-center">
       <div className="w-12 h-12 relative mr-4">
         <Image
           // src={author.avatar.url}
-          src='/ho-tham.png'
+          src='/lam-cong-nhan.jpg'
           layout="fill"
           className="rounded-full"
           alt={name}

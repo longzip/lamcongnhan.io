@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Giờ chị <strong>Hồ Thị Thắm</strong> làm{' '}
+              Tuyển <strong>công nhân, lao động</strong> đi làm ngay tại các KCN Khai Quang - Vĩnh Yên, KCN Bình Xuyên 1+2, KCN Bá Thiện 1+2, Khu vực Phúc Yên, Mê Linh, Bắc Thăng Long. Thu nhập lên đến 13tr{' '}
               <a
-                href="https://www.buudienxatulap.ga/"
+                href="tel:0978333963"
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                Bưu điện văn hóa xã Tự Lập
+                Đăng ký đi làm ngay: Chị Thắm 0978.333.963
               </a>
               .
             </>
